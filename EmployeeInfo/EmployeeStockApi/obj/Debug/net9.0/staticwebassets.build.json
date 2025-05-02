@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "oyQExH6qE1lFJshXVFGzWb+sYmHEi8J5Lr7o4mFafVE=",
+  "Source": "EmployeeStockApi",
+  "BasePath": "_content/EmployeeStockApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
