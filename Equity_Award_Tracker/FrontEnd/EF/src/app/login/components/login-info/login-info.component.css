@@ -1,0 +1,52 @@
+h1{
+    background: linear-gradient(
+    120.48deg,
+    rgba(0, 65, 106, 1) 0%,
+    rgba(25, 104, 91, 1) 57.103097438812256%,
+    rgba(152, 161, 160, 1) 96.63461446762085%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  
+  /* position: absolute; */
+  /* left: 56px; */
+  /* top: 138px; */
+  /* width: 176px;
+  height: 141px; */
+}
+
+p{
+  width: 70%;
+  /* height: 220px; */
+  font-size: x-large;
+  background: linear-gradient(
+    120.48deg,
+    rgba(0, 65, 106, 1) 0%,
+    rgba(25, 104, 91, 1) 57.103097438812256%,
+    rgb(57, 65, 64) 96.63461446762085%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+div{
+  align-items:center ;
+  justify-content: center;
+}
+
+.fade-in{
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+@keyframes fadeIn{
+  to{
+    opacity:1;
+  }
+}

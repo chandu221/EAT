@@ -1,0 +1,35 @@
+<div class="page-container">
+    <div class="logo-container">
+        <img src="assets/images/equihub.png" alt="EquiHub Logo" class="logo">
+      <div class="tagline">
+        <span class="tagline-text">Own it.</span>
+        <span class="tagline-text">Track it.</span>
+        <span class="tagline-text">Grow it.</span>
+      </div>
+    </div>
+   
+    <div class="key-features-container">
+      <div class="heading-container">
+        <h1 class="main-heading">Key Features</h1>
+        <p class="subtitle">EquiHub provides powerful tools to help you manage and optimize your equity compensation</p>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-card" *ngFor="let feature of features">
+          <div class="icon-container">
+            <span class="material-icons">{{ feature.icon }}</span>
+          </div>
+          <div class="content">
+            <h3>{{ feature.title }}</h3>
+            <p>{{ feature.description }}</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="cta-container">
+        <p class="cta-text">Ready to take control of your equity compensation?</p>
+        <button class="explore-btn" (click)="navigateToLogin()">Click here</button>
+      </div>
+    </div>
+  </div>
+   

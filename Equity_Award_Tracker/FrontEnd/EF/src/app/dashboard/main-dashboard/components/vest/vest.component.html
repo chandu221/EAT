@@ -1,0 +1,159 @@
+
+<div class="page-container">
+  <app-sidebar activePage="vest"></app-sidebar>
+  <div class="content-container">
+    <div class="header">
+      <div class="header-title">VESTING SCHEDULE</div>
+      <div class="user-profile">
+        <span>Deepak Kalwal</span>
+        <div class="profile-circle"></div>
+      </div>
+    </div>
+    
+    <div class="dashboard-container">
+      <div class="tabs-container">
+        <div class="tab" [class.active]="activeTab === 'rsu'" (click)="setActiveTab('rsu')">RSU</div>
+        <div class="tab" [class.active]="activeTab === 'esop'" (click)="setActiveTab('esop')">ESOP</div>
+      </div>
+      
+      <div class="table-responsive" *ngIf="activeTab === 'rsu'">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+            <th (click)="sort('id')">Sl No {{ getSortIndicator('id') }}</th>
+              <th (click)="sort('symbol')">Symbol {{ getSortIndicator('symbol') }}</th>
+              <th (click)="sort('type')">Type {{ getSortIndicator('type') }}</th>
+              <th (click)="sort('awardPrice')">Award Price {{ getSortIndicator('awardPrice') }}</th>
+              <th (click)="sort('vested')">Vested {{ getSortIndicator('vested') }}</th>
+              <th (click)="sort('remaining')">Remaining Unvested {{ getSortIndicator('remaining') }}</th>
+              <th (click)="sort('finalDate')">Final Vesting Date {{ getSortIndicator('finalDate') }}</th>
+              <th (click)="sort('currentValue')">Current Value {{ getSortIndicator('currentValue') }}</th>
+              <th (click)="sort('status')">Status {{ getSortIndicator('status') }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of currentRsuItems">
+              <td>{{item.id}}</td>
+              <td>{{item.symbol}}</td>
+              <td>{{item.type}}</td>
+              <td>{{item.awardPrice}}</td>
+              <td>{{item.vested}}</td>
+              <td>{{item.remaining}}</td>
+              <td>{{item.finalDate}}</td>
+              <td>{{item.currentValue}}</td>
+              <td>
+                <span
+                  class="status-indicator"
+                  [ngClass]="{'status-pending': item.status === 'Pending', 'status-completed': item.status === 'Completed'}">
+                  {{item.status}}
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="table-responsive" *ngIf="activeTab === 'esop'">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th (click)="sort('id')">Sl No {{ getSortIndicator('id') }}</th>
+              <th (click)="sort('symbol')">Symbol {{ getSortIndicator('symbol') }}</th>
+              <th (click)="sort('type')">Type {{ getSortIndicator('type') }}</th>
+              <th (click)="sort('awardPrice')">Award Price {{ getSortIndicator('awardPrice') }}</th>
+              <th (click)="sort('vested')">Vested {{ getSortIndicator('vested') }}</th>
+              <th (click)="sort('exercisable')">Exercisable {{ getSortIndicator('exercisable') }}</th>
+              <th (click)="sort('remainingUnexercised')">Remaining Unexercised {{ getSortIndicator('remainingUnexercised') }}</th>
+              <th (click)="sort('finalDate')">Final Vesting Date {{ getSortIndicator('finalDate') }}</th>
+              <th (click)="sort('status')">Status {{ getSortIndicator('status') }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of currentEsopItems">
+              <td>{{item.id}}</td>
+              <td>{{item.symbol}}</td>
+              <td>{{item.type}}</td>
+              <td>{{item.awardPrice}}</td>
+              <td>{{item.vested}}</td>
+              <td>{{item.exercisable}}</td>
+              <td>{{item.remainingUnexercised}}</td>
+              <td>{{item.finalDate}}</td>
+              <td>
+                <span
+                  class="status-indicator"
+                  [ngClass]="{'status-pending': item.status === 'Pending', 'status-completed': item.status === 'Completed'}">
+                  {{item.status}}
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="pagination-container">
+        <div class="navigation-controls">
+          <button class="btn btn-outline-primary" (click)="previousPage()" [disabled]="currentPage === 0">
+            <i class="arrow left"></i>
+          </button>
+          <button class="btn btn-outline-primary" (click)="nextPage()">
+            <i class="arrow right"></i>
+          </button>
+          <span class="page-indicator">Page {{currentPage + 1}} of {{getTotalPages()}}</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer Navigation -->
+    <div class="footer-nav">
+      <div class="footer-section">
+        <h3>EquiHub</h3>
+        <ul>
+          <li (click)="navigateToAbout()">About</li>
+          <li (click)="navigateToFeatures()">Key Features</li>
+          <li (click)="navigateToNews()">News & Updates</li>
+         
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Help & Reference</h3>
+        <ul>
+          <li (click)="navigateToFaq()">FAQs</li>
+          <li>Glossary of Terms</li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Important Information</h3>
+        <ul>
+          <li>Tax Information</li>
+          <li>Legal Notices</li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Connect & Contribute</h3>
+        <ul>
+          <li>Suggestions & Feedback</li>
+          <li>Accessibility Feedback</li>
+          <li>Contact Support</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="social-icons">
+      <span class="icon">f</span>
+      <span class="icon">in</span>
+      <span class="icon">&#64;</span>
+      <span class="icon">t</span>
+      <span class="icon">in</span>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+      <div class="copyright">
+        Copyright© 2025 EquiHub. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</div>
