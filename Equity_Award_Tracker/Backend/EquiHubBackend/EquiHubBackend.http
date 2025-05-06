@@ -1,0 +1,5 @@
+@EquiHubBackend_HostAddress = http://localhost:5001"
+###
+GET {{host}}/api/vesting/67890/rsu
+
+

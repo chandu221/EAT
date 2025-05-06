@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\navachandu.n\\Documents\\EquiHubBackend\\wwwroot\\db.json",
+      "PackagePath": "staticwebassets\\db.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EquiHubBackend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EquiHubBackend.props",
+      "PackagePath": "build\\EquiHubBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EquiHubBackend.props",
+      "PackagePath": "buildMultiTargeting\\EquiHubBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EquiHubBackend.props",
+      "PackagePath": "buildTransitive\\EquiHubBackend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
