@@ -1,0 +1,96 @@
+<!-- about.component.html -->
+<div class="about-container">
+    <!-- Header with logo and tagline -->
+    <header class="header">
+      <div class="header-content">
+        <div class="logo-container white-background">
+          <div class="logo-icon">
+            <img src="assets/images/equihub.png" alt="EquiHub Logo" class="logo-image" />
+          </div>
+        </div>
+        <h1 class="company-name" [style.color]="primaryColor">EquiHub</h1>
+        <div class="tagline">
+          <span class="tagline-part" [style.color]="primaryColor">Own It</span>
+          <span class="tagline-separator">•</span>
+          <span class="tagline-part" [style.color]="primaryColor">Track It</span>
+          <span class="tagline-separator">•</span>
+          <span class="tagline-part" [style.color]="primaryColor">Grow It</span>
+        </div>
+      </div>
+    </header>
+   
+    <!-- Main content -->
+    <main class="main-content">
+      <section class="about-section">
+        <div class="content-container">
+          <h2 class="section-title" [style.color]="primaryColor">About Us</h2>
+          
+          <div class="about-description">
+            <p class="description-paragraph">
+              At EquiHub, we believe that understanding and managing your equity awards should be empowering, not overwhelming. Founded in 2025, we set out to create a solution that brings clarity and control to employee equity ownership.
+            </p>
+            
+            <p class="description-paragraph">
+              Our journey began when our founding team, recognized a common challenge: employees often struggled to truly understand the value and potential of their equity compensation. We saw an opportunity to bridge this knowledge gap with an intuitive platform designed specifically for equity award tracking.
+            </p>
+            
+            <p class="description-paragraph">
+              Today, EquiHub serves professionals across industries who use our platform to monitor their RSUs and ESOPs with confidence. Our dedicated team continues to innovate, guided by our commitment to financial empowerment through technology.
+            </p>
+          </div>
+          
+          <div class="info-cards">
+            <div 
+              class="info-card" 
+              [style.border-top]="'4px solid ' + primaryColor"
+              [class.hovered]="missionHovered"
+              (mouseenter)="onCardHover('mission', true)" 
+              (mouseleave)="onCardHover('mission', false)"
+            >
+              <h3 class="card-title" [style.color]="primaryColor">Our Mission</h3>
+              <p class="card-text">
+                To demystify equity compensation and empower employees to make informed decisions about their financial future.
+              </p>
+            </div>
+            
+            <div 
+              class="info-card" 
+              [style.border-top]="'4px solid ' + primaryColor"
+              [class.hovered]="visionHovered"
+              (mouseenter)="onCardHover('vision', true)" 
+              (mouseleave)="onCardHover('vision', false)"
+            >
+              <h3 class="card-title" [style.color]="primaryColor">Our Vision</h3>
+              <p class="card-text">
+                A world where every equity holder confidently understands, tracks, and maximizes the potential of their ownership stake.
+              </p>
+            </div>
+            
+            <div 
+              class="info-card" 
+              [style.border-top]="'4px solid ' + primaryColor"
+              [class.hovered]="valuesHovered"
+              (mouseenter)="onCardHover('values', true)" 
+              (mouseleave)="onCardHover('values', false)"
+            >
+              <h3 class="card-title" [style.color]="primaryColor">Our Values</h3>
+              <p class="card-text">
+                Transparency, accuracy, accessibility, and continuous innovation drive everything we do at EquiHub.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+   
+    <!-- Footer -->
+    <footer class="footer" [style.background-color]="primaryColor">
+      <div class="footer-content">
+        <div class="copyright">
+          <span>© 2025 EquiHub. All rights reserved.</span>
+        </div>
+        
+      </div>
+    </footer>
+  </div>
+   
