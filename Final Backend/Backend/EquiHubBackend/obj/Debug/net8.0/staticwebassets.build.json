@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "jGvwgmw1FEyWyKqqNnpr79Jw/2NqHcKgf9hf5K3ItNU=",
+  "Source": "EquiHubBackend",
+  "BasePath": "_content/EquiHubBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EquiHubBackend\\wwwroot",
+      "Source": "EquiHubBackend",
+      "ContentRoot": "C:\\Users\\navachandu.n\\Pictures\\Equity_Award_Tracker\\Backend\\EquiHubBackend\\wwwroot\\",
+      "BasePath": "_content/EquiHubBackend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\navachandu.n\\Pictures\\Equity_Award_Tracker\\Backend\\EquiHubBackend\\wwwroot\\db.json",
+      "SourceId": "EquiHubBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\navachandu.n\\Pictures\\Equity_Award_Tracker\\Backend\\EquiHubBackend\\wwwroot\\",
+      "BasePath": "_content/EquiHubBackend",
+      "RelativePath": "db.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\db.json"
+    }
+  ]
+}
