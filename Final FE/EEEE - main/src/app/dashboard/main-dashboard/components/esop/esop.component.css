@@ -1,0 +1,312 @@
+.page-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f4f8;
+    overflow-y: auto;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .title-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .page-title {
+    color: #177245;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  .stock-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: bold;
+  }
+
+  .stock-label {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .stock-value {
+    color: #177245;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .discounted-price {
+    font-weight: bold; /* Make the discounted price bold */
+  }
+  
+  .ml-4 {
+    margin-left: 20px; /* Add spacing between current and discounted price */
+  }
+
+  .ml-4 {
+    margin-left: 20px;
+  }
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .user-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .profile-circle {
+    width: 36px;
+    height: 36px;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+
+  .dashboard-container {
+    padding: 15px;
+    background-color: #e6f9e6;
+    flex: 1;
+  }
+
+  .metrics-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .features-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px; /* Reduce the gap between cards */
+  }
+
+  /* Metrics Card Styles */
+.metric-card {
+  background-color: white;
+  border-radius: 10px; /* Rounded corners */
+  padding: 40px; /* Keep the padding for metrics cards */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 19%; /* Maintain consistent width */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+  color: #177245; /* Keep ESOP green color */
+}
+
+/* Features Card Styles */
+.feature-card {
+  background-color: white;
+  border-radius: 10px; /* Rounded corners */
+  padding: 15px; /* Match RSU padding for features cards */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1; /* Ensure equal width for all feature cards */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Match RSU shadow */
+  color: #177245; /* Keep ESOP green color */
+}
+
+  .metric-title, .feature-title {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .metric-value {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .green-value {
+    color: #177245;
+  }
+
+  .vesting-timeline {
+    text-align: center;
+  }
+
+  .timeline-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #177245;
+  }
+
+  .progress-circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    position: relative;
+    width: 120px;
+  }
+
+  .circular-chart {
+    width: 100%;
+    height: 100%;
+  }
+
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.2;
+  }
+
+  .circle {
+    fill: none;
+    stroke: #177245;
+    stroke-width: 3.2;
+    stroke-linecap: round;
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+
+  .percentage {
+    fill: #177245;
+    font-size: 0.5em;
+    text-anchor: middle;
+    font-weight: bold;
+  }
+
+  .percentage-label {
+    fill: #177245;
+    font-size: 0.3em;
+    text-anchor: middle;
+  }
+
+  .tax-calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .tax-select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+
+  .tax-calculator {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   
+  .calculator-dropdown {
+    width: 200%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    color: #555;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    -webkit-appearance: menulist;
+    appearance: menulist;
+  }
+   
+  .calculate-btn {
+    background-color: #177245;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+   
+
+  /* Footer styles matching Vest component structure */
+  .footer-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #177245;
+    color: white;
+    padding: 30px 20px;
+  }
+
+  .footer-section {
+    flex: 1;
+    padding: 0 15px;
+  }
+
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white;
+  }
+
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-section li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #ccc;
+    cursor: pointer;
+  }
+
+  .footer-section li:hover {
+    color: white;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #177245;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #177245;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .footer {
+    background-color: #177245;
+    color: white;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .copyright {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #eee;
+  }

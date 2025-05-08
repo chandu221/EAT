@@ -1,0 +1,33 @@
+<div class="faq-container">
+    <div class="header" [style.background-color]="primaryColor">
+      <h1>{{ companyInfo.name }} - Frequently Asked Questions</h1>
+    </div>
+   
+    <div class="tabs">
+      <button
+        *ngFor="let category of faqCategories"
+        class="tab-button"
+        [class.active]="activeTab === category"
+        (click)="setActiveTab(category)"
+        [style.background-color]="activeTab === category ? primaryColor : ''"
+      >
+        {{ formatCategoryName(category) }}
+      </button>
+    </div>
+   
+    <!-- FAQ Content for the active tab -->
+    <div class="tab-content">
+      <div class="faq-item" *ngFor="let item of getFaqsForCategory(activeTab)">
+        <div class="question" (click)="toggleFaqItem(item)" [style.color]="primaryColor">
+          {{ item.question }}
+          <span class="toggle">{{ item.isOpen ? '−' : '+' }}</span>
+        </div>
+        <div class="answer" [class.open]="item.isOpen" [innerHTML]="item.answer"></div>
+      </div>
+    </div>
+   
+    <div class="footer">
+      <p>{{ companyInfo.copyright }}</p>
+    </div>
+  </div>
+ 
