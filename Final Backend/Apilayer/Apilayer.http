@@ -1,6 +1,0 @@
-@Apilayer_HostAddress = http://localhost:5070
-
-GET {{Apilayer_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
