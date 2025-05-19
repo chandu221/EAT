@@ -1,0 +1,15 @@
+<div class="sidebar">
+    <div class="logo">
+      <div class="logo-icon">
+        <img src="assets/images/logo.svg" alt="EquiHub Logo" class="logo-image" />
+      </div>
+    </div>
+    <div class="menu">
+      <a [routerLink]="'/rsu'" [class.active]="activePage === 'rsu'" class="menu-item">RSU</a>
+      <a [routerLink]="'/esop'" [class.active]="activePage === 'esop'" class="menu-item">ESOP</a>
+      <a [routerLink]="'/vest'" [class.active]="activePage === 'vest'" class="menu-item">Vest</a>
+    </div>
+    <div class="logout-container">
+      <button class="btn btn-dark logout-btn" (click)="onLogout()">Logout</button>
+    </div>
+  </div>

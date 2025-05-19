@@ -1,0 +1,9 @@
+{
+    "username": "Deepak Kalwal",
+    "stockPrice": 100,
+    "totalStocksGranted": 100,
+    "remainingUnvestedStocks": 75,
+    "vestingPercentage": 25,
+    "nextVestingDate": "Aug 30,2025",
+    "currentValue": 2500
+  }
