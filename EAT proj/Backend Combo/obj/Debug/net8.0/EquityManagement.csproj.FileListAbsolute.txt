@@ -1,0 +1,295 @@
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\EquityManagement.csproj.AssemblyReference.cache
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\EquityManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\EquityManagement.AssemblyInfoInputs.cache
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\EquityManagement.AssemblyInfo.cs
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\EquityManagement.csproj.CoreCompileInputs.cache
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\appsettings.json
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\Data\db.json
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\EquityManagement.exe
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\EquityManagement.deps.json
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\EquityManagement.runtimeconfig.json
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\EquityManagement.dll
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\EquityManagement.pdb
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ibbani.gowda\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.EquityManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.EquityManagement.props
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EquityManagement.props
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EquityManagement.props
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\scopedcss\bundle\EquityManagement.styles.css
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\EquityMa.F0B201E1.Up2Date
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\EquityManagement.dll
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\refint\EquityManagement.dll
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\EquityManagement.pdb
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\EquityManagement.genruntimeconfig.cache
+C:\Users\ibbani.gowda\EquityManagement\obj\Debug\net8.0\ref\EquityManagement.dll
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\appsettings.json
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\Data\db.json
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\EquityManagement.exe
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\EquityManagement.deps.json
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\EquityManagement.runtimeconfig.json
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\EquityManagement.dll
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\EquityManagement.pdb
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\EquityManagement.csproj.AssemblyReference.cache
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\EquityManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\EquityManagement.AssemblyInfoInputs.cache
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\EquityManagement.AssemblyInfo.cs
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\EquityManagement.csproj.CoreCompileInputs.cache
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.EquityManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.EquityManagement.props
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EquityManagement.props
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EquityManagement.props
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\scopedcss\bundle\EquityManagement.styles.css
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\EquityMa.F0B201E1.Up2Date
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\EquityManagement.dll
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\refint\EquityManagement.dll
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\EquityManagement.pdb
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\EquityManagement.genruntimeconfig.cache
+C:\Users\ibbani.gowda\Desktop\ibbs\EquityManagement\obj\Debug\net8.0\ref\EquityManagement.dll
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\EquityManagement.csproj.AssemblyReference.cache
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\EquityManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\EquityManagement.AssemblyInfoInputs.cache
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\EquityManagement.AssemblyInfo.cs
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\EquityManagement.csproj.CoreCompileInputs.cache
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\EquityManagement.dll
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\refint\EquityManagement.dll
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\EquityManagement.pdb
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\appsettings.json
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\Data\db.json
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\EquityManagement.exe
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\EquityManagement.deps.json
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\EquityManagement.runtimeconfig.json
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\EquityManagement.dll
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\EquityManagement.pdb
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.EquityManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.EquityManagement.props
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EquityManagement.props
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EquityManagement.props
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\scopedcss\bundle\EquityManagement.styles.css
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\EquityMa.F0B201E1.Up2Date
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\EquityManagement.genruntimeconfig.cache
+C:\Users\navachandu.n\Documents\Merge1\EquityManagement\obj\Debug\net8.0\ref\EquityManagement.dll
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\appsettings.json
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\Data\db.json
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\EquityManagement.exe
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\EquityManagement.deps.json
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\EquityManagement.runtimeconfig.json
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\EquityManagement.dll
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\EquityManagement.pdb
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\EquityManagement.csproj.AssemblyReference.cache
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\EquityManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\EquityManagement.AssemblyInfoInputs.cache
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\EquityManagement.AssemblyInfo.cs
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\EquityManagement.csproj.CoreCompileInputs.cache
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.EquityManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.EquityManagement.props
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EquityManagement.props
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EquityManagement.props
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\scopedcss\bundle\EquityManagement.styles.css
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\EquityMa.F0B201E1.Up2Date
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\EquityManagement.dll
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\refint\EquityManagement.dll
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\EquityManagement.pdb
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\EquityManagement.genruntimeconfig.cache
+C:\Users\navachandu.n\Pictures\Equity_Award_Tracker\Backend\EquityManagement\obj\Debug\net8.0\ref\EquityManagement.dll
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\appsettings.json
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\Data\db.json
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\EquityManagement.exe
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\EquityManagement.deps.json
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\EquityManagement.runtimeconfig.json
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\EquityManagement.dll
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\EquityManagement.pdb
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\navachandu.n\Desktop\EquityManagement\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\EquityManagement.csproj.AssemblyReference.cache
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\EquityManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\EquityManagement.AssemblyInfoInputs.cache
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\EquityManagement.AssemblyInfo.cs
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\EquityManagement.csproj.CoreCompileInputs.cache
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.EquityManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.build.EquityManagement.props
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EquityManagement.props
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EquityManagement.props
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\scopedcss\bundle\EquityManagement.styles.css
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\EquityMa.F0B201E1.Up2Date
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\EquityManagement.dll
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\refint\EquityManagement.dll
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\EquityManagement.pdb
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\EquityManagement.genruntimeconfig.cache
+C:\Users\navachandu.n\Desktop\EquityManagement\obj\Debug\net8.0\ref\EquityManagement.dll
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\EquityManagement.exe
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\EquityManagement.dll
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\EquityManagement.pdb
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\appsettings.json
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\Data\db.json
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.csproj.AssemblyReference.cache
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.AssemblyInfoInputs.cache
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.AssemblyInfo.cs
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.csproj.CoreCompileInputs.cache
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets\msbuild.EquityManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets\msbuild.build.EquityManagement.props
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EquityManagement.props
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EquityManagement.props
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\scopedcss\bundle\EquityManagement.styles.css
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityMa.F0B201E1.Up2Date
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.dll
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\refint\EquityManagement.dll
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.pdb
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\EquityManagement.deps.json
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\bin\Debug\net8.0\EquityManagement.runtimeconfig.json
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.genruntimeconfig.cache
+C:\Users\navachandu.n\Desktop\EquityManagement Alter\obj\Debug\net8.0\ref\EquityManagement.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.csproj.AssemblyReference.cache
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.AssemblyInfoInputs.cache
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.AssemblyInfo.cs
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.csproj.CoreCompileInputs.cache
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\refint\EquityManagement.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.pdb
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Data\db.json
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\appsettings.json
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\EquityManagement.staticwebassets.endpoints.json
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\EquityManagement.exe
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\EquityManagement.deps.json
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\EquityManagement.runtimeconfig.json
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\EquityManagement.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\EquityManagement.pdb
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\scopedcss\bundle\EquityManagement.styles.css
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets\msbuild.EquityManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets\msbuild.EquityManagement.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets\msbuild.build.EquityManagement.props
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EquityManagement.props
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EquityManagement.props
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityMa.F0B201E1.Up2Date
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\EquityManagement.genruntimeconfig.cache
+C:\Users\nchan\Desktop\EquityManagement Alter\obj\Debug\net8.0\ref\EquityManagement.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\nchan\Desktop\EquityManagement Alter\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\appsettings.json
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Data\db.json
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\EquityManagement.exe
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\EquityManagement.deps.json
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\EquityManagement.runtimeconfig.json
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\EquityManagement.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\EquityManagement.pdb
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\EquityManagement.csproj.AssemblyReference.cache
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\EquityManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\EquityManagement.AssemblyInfoInputs.cache
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\EquityManagement.AssemblyInfo.cs
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\EquityManagement.csproj.CoreCompileInputs.cache
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\EquityManagement.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\staticwebassets\msbuild.EquityManagement.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\staticwebassets\msbuild.build.EquityManagement.props
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EquityManagement.props
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EquityManagement.props
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\scopedcss\bundle\EquityManagement.styles.css
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\EquityMa.F0B201E1.Up2Date
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\EquityManagement.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\refint\EquityManagement.dll
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\EquityManagement.pdb
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\EquityManagement.genruntimeconfig.cache
+C:\Users\navachandu.n\Desktop\Backend Combo\obj\Debug\net8.0\ref\EquityManagement.dll
