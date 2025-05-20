@@ -1,0 +1,113 @@
+.legal-notices-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+    
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 32px;
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 15px;
+    }
+    
+    .legal-document {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 25px;
+      
+      section {
+        margin-bottom: 30px;
+        
+        &:last-child {
+          margin-bottom: 0;
+        }
+        
+        h2 {
+          color: #2c3e50;
+          font-size: 24px;
+          margin-bottom: 15px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #e0e0e0;
+        }
+        
+        .legal-content {
+          color: #333;
+          font-size: 16px;
+          line-height: 1.6;
+          
+          p {
+            margin-bottom: 15px;
+          }
+          
+          .sub-sections {
+            margin-top: 20px;
+            
+            .sub-section {
+              margin-bottom: 20px;
+              padding-left: 15px;
+              border-left: 3px solid #f0f0f0;
+              
+              h3 {
+                color: #34495e;
+                font-size: 18px;
+                margin-bottom: 10px;
+              }
+              
+              ul {
+                padding-left: 20px;
+                margin: 15px 0;
+                
+                li {
+                  margin-bottom: 8px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    .last-updated {
+      margin-top: 20px;
+      text-align: right;
+      font-style: italic;
+      color: #7f8c8d;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .legal-notices-container {
+      padding: 20px 15px;
+      
+      h1 {
+        font-size: 26px;
+      }
+      
+      .legal-document {
+        padding: 15px;
+        
+        section {
+          h2 {
+            font-size: 20px;
+          }
+          
+          .legal-content {
+            font-size: 15px;
+            
+            .sub-sections {
+              .sub-section {
+                h3 {
+                  font-size: 17px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

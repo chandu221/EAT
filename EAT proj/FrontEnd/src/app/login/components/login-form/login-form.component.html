@@ -1,0 +1,43 @@
+<div class="card bg-transparent border-0 ">
+    <div class="card-body gradient-bg mediaForm">
+        <h5 class="card-title fs-1 text-center text-light">EquiHub</h5>
+        <h6 class="card-subtitle mb-2 text-light text-center">Own it, Track it, Grow it</h6>
+        <form class="mt-5">
+            <div class="mb-3">
+                <label for="email" class="form-label text-left text-light">Email address</label>
+                <input type="email" [(ngModel)]="email" name="email" class="form-control"
+                       [ngClass]="{'is-invalid': isSubmitted && emailError}"
+                       id="email" aria-describedby="emailHelp" required="true">
+                <div *ngIf="isSubmitted && emailError" class="invalid-feedback">
+                    {{ emailError }}
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="inputPassword" class="form-label text-light">Password</label>
+                <input type="password" [(ngModel)]="password" name="password" class="form-control"
+                       [ngClass]="{'is-invalid': isSubmitted && passwordError}"
+                       id="inputPassword">
+                <div *ngIf="isSubmitted && passwordError" class="invalid-feedback">
+                    {{ passwordError }}
+                </div>
+            </div>
+           
+            <!-- Login Error Message -->
+            <div *ngIf="loginError" class="alert alert-danger py-1" role="alert">
+                {{ loginError }}
+            </div>
+           
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="remenberMe" name="rCheckbox" [(ngModel)]="rememberMe">
+                <label class="form-check-label text-light" for="remenberMe">Remember me</label>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <button type="button" (keydown.enter)="onSubmit()" (click)="onSubmit()" class="btn btn-bg btnGroup">Login</button>
+                <a href="#" class="mt-4">
+                    <label class="form-check-label text-light text-decoration-underline" (click)="FG()">Forgot
+                        Password?</label>
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
