@@ -1,0 +1,23 @@
+<div class="page-container">
+    <div class="content-container">
+      <div class="d-flex justify-content-between mt-3">
+        <span class="back-arrow" (click)="goBack()">
+          <i class="fa fa-arrow-left"></i>
+        </span>
+        <h1>Notifications</h1>
+        <p></p>
+      </div>
+  
+<ul class="notification-list" *ngIf="notifications.length > 0">
+      <li *ngFor="let notification of notifications" class="notification-item">
+        <div class="notification-content">
+          <strong>{{ notification.message }}</strong>
+          <p>{{ notification.submessage }}</p>
+        </div>
+        <span class="notification-time">{{ notification.time }}</span>
+      </li>
+    </ul>
+  
+      <app-footer footerType="rsu-footer" [notify]="true"></app-footer>
+    </div>
+  </div>
