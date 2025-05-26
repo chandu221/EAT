@@ -1,0 +1,27 @@
+<div class="legal-notices-container">
+    <h1>Legal Notices</h1>
+    
+    <div class="legal-document">
+      <section *ngFor="let section of legalNotices">
+        <h2>{{ section.title }}</h2>
+        <div class="legal-content">
+          <p [innerHTML]="section.content"></p>
+          
+          <div *ngIf="section.subSections && section.subSections.length > 0" class="sub-sections">
+            <div *ngFor="let subSection of section.subSections" class="sub-section">
+              <h3>{{ subSection.title }}</h3>
+              <p [innerHTML]="subSection.content"></p>
+              
+              <ul *ngIf="subSection.bulletPoints && subSection.bulletPoints.length > 0">
+                <li *ngFor="let point of subSection.bulletPoints">{{ point }}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <div class="last-updated">
+      <p>Last Updated: {{ legalNotices[0].lastUpdated }}</p>
+    </div>
+  </div>

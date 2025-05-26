@@ -1,0 +1,100 @@
+<div class="page-container">
+  <app-sidebar activePage="esop"></app-sidebar>
+  <div class="content-container">
+    <app-header pageTitle="ESOP" [stockPrice]="esopData?.currentStockPrice" [userName]="esopData?.username" activePage="esop" [discountedPrice]="esopData?.discountedPrice"></app-header>  
+    <div class="dashboard-container">
+      <div class="metrics-row">
+        <!-- Top row metrics -->
+        <div class="metric-card">
+          <div class="metric-title">Total Stocks Granted</div>
+          <div class="metric-value green-value">{{ esopData?.totalStocksGranted }}</div>
+        </div>
+        
+        <div class="metric-card">
+          <div class="metric-title">Total Vested Stocks</div>
+          <div class="metric-value green-value">{{ esopData?.totalVestedStocks }}</div>
+        </div>
+        
+        <div class="metric-card">
+          <div class="metric-title">Remaining Unvested Stocks</div>
+          <div class="metric-value green-value">{{ esopData?.remainingUnvestedStocks }}</div>
+        </div>
+        
+        <div class="metric-card">
+          <div class="metric-title">Current Market Value</div>
+          <div class="metric-value green-value">${{ esopData?.currentMarketValue }}</div>
+        </div>
+        
+        <div class="metric-card">
+          <div class="metric-title">Next Vesting Date</div>
+          <div class="metric-value">
+            <div class="green-value">{{ esopData?.nextVestingDate }}</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="features-row">
+        <!-- Second row features -->
+        <div class="feature-card">
+          <div class="feature-title">Time to Full Vesting</div>
+          <div class="vesting-timeline">
+            <div class="timeline-value">{{ esopData?.timeToFullVesting }}</div>
+          </div>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-title">Vesting Progress</div>
+          <div class="progress-circle-container">
+            <svg viewBox="0 0 36 36" class="circular-chart">
+              <path class="circle-bg"
+                d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <path class="circle"
+                [attr.stroke-dasharray]="esopData?.vestingProgressPercentage + ', 100'"
+                d="M18 2.0845
+                  a 15.9155 15.9155 0 0 1 0 31.831
+                  a 15.9155 15.9155 0 0 1 0 -31.831"
+              />
+              <text x="18" y="18.5" class="percentage">{{ esopData?.vestingProgressPercentage }}%</text>
+              <text x="18" y="24" class="percentage-label">Vested</text>
+            </svg>
+          </div>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-title">Exercised Stocks</div>
+          <div class="metric-value green-value">{{ esopData?.exercisedStocks }}</div>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-title">Remaining Stocks to Exercise</div>
+          <div class="metric-value green-value">{{ esopData?.remainingStocksToExercise }}</div>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-title">Tax Calculator</div>
+          <div class="feature-content">
+            <div class="tax-calculator">
+            
+              <select class="calculator-dropdown" [(ngModel)]="selectedTaxType">
+                <option value="federal">Federal</option>
+                <option value="state">State</option>
+                <option value="local">Local</option>
+                <option value="total">Total</option>
+              </select>
+              <div style="color: #177245; font-weight:100;">{{aftertax}} </div>&nbsp;
+              <button class="calculate-btn" (click)="getCurrentValue()">Calculate</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer Component -->
+    <app-footer footerType="esop-footer"></app-footer>
+  </div>
+</div>
+ 

@@ -1,0 +1,26 @@
+<div class="content-container">
+  <div class="custom-header">
+    <div  [ngClass]="{'page-title':activePage==='esop','rsu-title':activePage!=='esop'}">{{ pageTitle }}</div>
+    <div class="stock-price">
+      <strong
+        >Current Stock Price:
+        <span class="stock-value">${{ stockPrice }}</span></strong
+      >
+      <div *ngIf="activePage === 'esop'" [ngClass]="{'display-flex':activePage==='esop'}">
+         <span class="stock-label discounted-label">Discounted Price: 
+         </span>
+        <span class="stock-value discounted-price">${{ discountedPrice }}</span>
+        
+      </div>
+    </div>
+    
+    <div class="user-profile">
+      <a [routerLink]="'/notification'" [class.active]="activePage === 'notification'" class="notify"> <i class="fa fa-bell"></i></a>
+      <span
+      ><strong>{{ userName }}</strong></span
+      >
+      <img [src]="avatarUrl" alt="Avatar" class="avatar-img" />
+      <!-- <div class="profile-circle"></div> -->
+    </div>
+  </div>
+</div>

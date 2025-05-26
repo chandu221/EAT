@@ -1,0 +1,92 @@
+<div class="suggestions-feedback-container">
+    <h1>Suggestions & Feedback</h1>
+    
+    <div class="introduction">
+      <p>We value your input! Please share your thoughts, ideas, and experiences to help us improve EquiHub.</p>
+    </div>
+    
+    <div class="feedback-form-container" [ngClass]="{'submitted': submitted}">
+      <div *ngIf="success" class="success-message">
+        <h3>Thank you for your feedback!</h3>
+        <p>Your submission has been received. We appreciate your input and will review it promptly.</p>
+      </div>
+      
+      <form *ngIf="!success" [formGroup]="feedbackForm" (ngSubmit)="onSubmit()" class="feedback-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" formControlName="name" 
+                 [ngClass]="{'is-invalid': submitted && f['name'].errors}">
+          <div *ngIf="submitted && f['name'].errors" class="error-message">
+            <div *ngIf="f['name'].errors['required']">Name is required</div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" formControlName="email"
+                 [ngClass]="{'is-invalid': submitted && f['email'].errors}">
+          <div *ngIf="submitted && f['email'].errors" class="error-message">
+            <div *ngIf="f['email'].errors['required']">Email is required</div>
+            <div *ngIf="f['email'].errors['email']">Please enter a valid email address</div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="category">Feedback Category</label>
+          <select id="category" formControlName="category"
+                  [ngClass]="{'is-invalid': submitted && f['category'].errors}">
+            <option value="">-- Select Category --</option>
+            <option *ngFor="let category of feedbackCategories" [value]="category">
+              {{ category }}
+            </option>
+          </select>
+          <div *ngIf="submitted && f['category'].errors" class="error-message">
+            <div *ngIf="f['category'].errors['required']">Please select a category</div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input type="text" id="title" formControlName="title" placeholder="Brief summary of your feedback"
+                 [ngClass]="{'is-invalid': submitted && f['title'].errors}">
+          <div *ngIf="submitted && f['title'].errors" class="error-message">
+            <div *ngIf="f['title'].errors['required']">Title is required</div>
+            <div *ngIf="f['title'].errors['minlength']">Title must be at least 5 characters</div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Your Feedback</label>
+          <textarea id="message" formControlName="message" rows="6" placeholder="Please provide details about your suggestion or feedback"
+                    [ngClass]="{'is-invalid': submitted && f['message'].errors}"></textarea>
+          <div *ngIf="submitted && f['message'].errors" class="error-message">
+            <div *ngIf="f['message'].errors['required']">Please provide your feedback</div>
+            <div *ngIf="f['message'].errors['minlength']">Your feedback must be at least 20 characters</div>
+          </div>
+        </div>
+        
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="attachScreenshot" formControlName="attachScreenshot">
+          <label for="attachScreenshot">Allow us to capture your current screen for better context</label>
+        </div>
+        
+        <div class="form-group checkbox-group">
+          <input type="checkbox" id="permission" formControlName="permission"
+                 [ngClass]="{'is-invalid': submitted && f['permission'].errors}">
+          <label for="permission">I agree that my feedback may be used to improve EquiHub</label>
+          <div *ngIf="submitted && f['permission'].errors" class="error-message">
+            <div *ngIf="f['permission'].errors['required']">You must agree to continue</div>
+          </div>
+        </div>
+        
+        <div class="form-actions">
+          <button type="submit" class="submit-button">Submit Feedback</button>
+        </div>
+      </form>
+    </div>
+    
+    <div class="alternative-contact">
+      <h3>Other Ways to Reach Us</h3>
+      <p>You can also send your feedback directly to our team at <a href="mailto:feedback&#64;equihub.com">feedback&#64;equihub.com</a></p>
+    </div>
+  </div>

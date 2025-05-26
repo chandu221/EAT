@@ -1,0 +1,35 @@
+<div class="tax-information-container">
+    <h1>Tax Information for Equity Awards</h1>
+    
+    <section *ngFor="let section of taxInformation">
+      <h2>{{ section.title }}</h2>
+      <div class="tax-content">
+        <p>{{ section.description }}</p>
+        
+        <div *ngIf="section.bulletPoints && section.bulletPoints.length > 0" class="bullet-points">
+          <ul>
+            <li *ngFor="let point of section.bulletPoints">{{ point }}</li>
+          </ul>
+        </div>
+        
+        <div *ngIf="section.table" class="tax-table">
+          <table>
+            <thead>
+              <tr>
+                <th *ngFor="let header of section.table.headers">{{ header }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let row of section.table.rows">
+                <td *ngFor="let cell of row">{{ cell }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    
+    <div class="disclaimer">
+      <p><strong>Disclaimer:</strong> {{ taxInformation[0].disclaimer }}</p>
+    </div>
+  </div>

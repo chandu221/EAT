@@ -1,0 +1,297 @@
+.page-container {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+ 
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+}
+ 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+ 
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #009879;
+}
+ 
+.user-profile {
+  
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    color: #555;
+    font-weight: 500;
+}
+ 
+.profile-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden; /* Ensures the image stays within the bounds */
+}
+
+.avatar-img {
+  width: 100%; /* Adjusted to fit within the circular container */
+  height: 100%; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensures the image fills the container without distortion */
+  border-radius: 50%; /* Keeps the image circular */
+}
+ 
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #e6f9f0;
+}
+ 
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-items: center;
+}
+ 
+.tab {
+  padding: 15px 30px; /* Increased padding for larger tabs */
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 18px; /* Increased font size */
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+ 
+.tab.active {
+  background-color: #009879;
+  color: white;
+}
+ 
+.table-responsive {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Full width */
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 20px; /* Add space for pagination */
+  max-height: calc(100% - 120px); /* Leave room for pagination */
+}
+ 
+.table {
+  width: 100%; /* Full width */
+  border-collapse: collapse;
+  background-color: white;
+}
+ 
+.table thead {
+  background-color: #009879;
+  color: white;
+  border-bottom: 2px solid #ddd;
+}
+ 
+.table th {
+  padding: 12px 15px;
+  text-align: center;
+  border-right: 1px solid #ddd; /* Add right borders to header cells */
+  cursor: pointer; /* Show it's clickable for sorting */
+  user-select: none; /* Prevent text selection when clicking */
+  position: relative; /* For sort indicators */
+}
+ 
+.table th:hover {
+  background-color: #007c64; /* Darker color on hover */
+}
+ 
+.table th:last-child {
+  border-right: none; /* Remove the right border for the last header cell */
+}
+ 
+.table td {
+  padding: 12px 15px;
+  text-align: center;
+  border: none; /* No borders for table body cells */
+}
+ 
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+ 
+/* Status indicator styles - no longer look like buttons */
+.status-indicator {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+ 
+.status-pending {
+  background-color: #fff3cd;
+  color: #856404;
+  border: 1px solid #ffeeba;
+}
+ 
+.status-completed {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+ 
+/* Pagination container to position at bottom right */
+.pagination-container {
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  padding: 0 20px 20px 0; /* Add padding for spacing */
+  margin-top: 20px; /* Add more space between table and pagination */
+}
+.notify {
+  padding: 15px 0;
+  text-align: center;
+  color: #666;
+  text-decoration: none;
+  transition: all 0.3s;
+  border-radius: 5px;
+  margin: 5px 7px;
+}
+
+.notify.active {
+  background-color: #e0e0e0;
+  font-weight: bold;
+  color: #333;
+  border:1px solid #5c5b5b; ;
+}
+ 
+.navigation-controls {
+  display: flex;
+  align-items: center;
+}
+ 
+.navigation-controls button {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #007c64; /* Softer green border */
+  background-color: #f1f1f1; /* Light gray background */
+  color: #004638; /* Softer green text color */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+ 
+.navigation-controls button:hover {
+  background-color: #5ba495; /* Darker green on hover */
+  color: white; /* White text on hover */
+}
+ 
+.page-indicator {
+  margin-left: 10px;
+  color: #666;
+  font-weight: 500;
+}
+ 
+.arrow {
+  border: solid #009879;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+ 
+.right {
+  transform: rotate(-45deg);
+}
+ 
+.left {
+  transform: rotate(135deg);
+}
+ 
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #009879;
+  color: white;
+  padding: 30px 20px;
+}
+ 
+.footer-section {
+  flex: 1;
+  padding: 0 15px;
+}
+ 
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: white;
+}
+ 
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ 
+.footer-section li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #ccc;
+  cursor: pointer;
+}
+ 
+.footer-section li:hover {
+  color: white;
+}
+ 
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+  background-color: #009879;
+}
+ 
+.icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: white;
+  color: #009879;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 12px;
+}
+ 
+.footer {
+  background-color: #009879;
+  color: white;
+  border-top: 1px solid rgba(255,255,255,0.1);
+}
+ 
+.copyright {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  color: #eee;
+}

@@ -1,0 +1,54 @@
+<div [ngClass]="footerType">
+    <!-- Footer Navigation -->
+    <div class="footer-nav">
+      <div class="footer-section">
+        <h3>EquiHub</h3>
+        <ul>
+            <li (click)="navigateToAbout()">About</li>
+          <li (click)="navigateToFeatures()">Key Features</li>
+          <li (click)="navigateToNews()">News & Updates</li>
+          
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Help & Reference</h3>
+        <ul>
+            <li (click)="navigateToFaq()">FAQs</li>
+          <li (click)="navigateToGlossary()">Glossary of Terms</li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Important Information</h3>
+        <ul>
+          <li (click)="navigateToTaxInformation()">Tax Information</li>
+          <li (click)="navigateToLegalNotices()">Legal Notices</li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Connect & Contribute</h3>
+        <ul>
+          <li (click)="navigateToSuggestionsFeedback()">Suggestions & Feedback</li>
+          
+          <li (click)="navigateToContactSupport()">Contact Support</li>
+        </ul>
+      </div>
+    </div>
+     
+    <div class="social-icons">
+      <span class="icon">f</span>
+      <span class="icon">in</span>
+      <span class="icon">&#64;</span>
+      <span class="icon">t</span>
+      <span class="icon">in</span>
+    </div>
+     
+    <!-- Footer -->
+    <div class="footer">
+      <div class="copyright">
+        Copyright© {{currentYear}} EquiHub. All Rights Reserved.
+      </div>
+    </div>
+  </div>

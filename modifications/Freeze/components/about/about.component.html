@@ -1,0 +1,60 @@
+<div class="about-container">
+  <!-- Header with logo and tagline -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo-container white-background">
+        <div class="logo-icon">
+          <img [src]="assetsPath + 'images/equihub.png'" [alt]="companyInfo.name + ' Logo'" class="logo-image" />
+        </div>
+      </div>
+      <h1 class="company-name" [style.color]="primaryColor">{{ companyInfo.name }}</h1>
+      <div class="tagline">
+        <span *ngFor="let tagline of companyInfo.taglines; let last = last; let i = index">
+          <span class="tagline-part" [style.color]="primaryColor">{{ tagline }}</span>
+          <span *ngIf="!last" class="tagline-separator">•</span>
+        </span>
+      </div>
+    </div>
+  </header>
+ 
+  <!-- Main content -->
+  <main class="main-content">
+    <section class="about-section">
+      <div class="content-container">
+        <h2 class="section-title" [style.color]="primaryColor">{{ companyInfo.aboutSection.title }}</h2>
+       
+        <div class="about-description">
+          <p *ngFor="let paragraph of companyInfo.aboutSection.paragraphs" class="description-paragraph">
+            {{ paragraph }}
+          </p>
+        </div>
+       
+        <div class="info-cards">
+          <div
+            *ngFor="let card of companyInfo.infoCards"
+            class="info-card"
+            [style.border-top]="'4px solid ' + primaryColor"
+            [class.hovered]="this[card.id + 'Hovered']"
+            (mouseenter)="onCardHover(card.id, true)"
+            (mouseleave)="onCardHover(card.id, false)"
+          >
+            <h3 class="card-title" [style.color]="primaryColor">{{ card.title }}</h3>
+            <p class="card-text">
+              {{ card.description }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+ 
+  <!-- Footer -->
+  <footer class="footer" [style.background-color]="primaryColor">
+    <div class="footer-content">
+      <div class="copyright">
+        <span>{{ companyInfo.copyright }}</span>
+      </div>
+    </div>
+  </footer>
+</div>
+ 
