@@ -1,0 +1,38 @@
+/* filepath: c:\Users\moyan.agrawal\Desktop\EAT_proj_01\EAT proj\FrontEnd\src\app\dashboard\main-dashboard\components\notification\notification.component.css */
+.notification-list {
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+
+  }
+  
+  .notification-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  .notification-item:hover {
+    cursor: pointer;
+    background-color: #ccc;
+  }
+
+  .back-arrow {
+    cursor: pointer;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+    font-size: 2em;
+    color: #000000; /* Adjust color as needed */
+  }
+  
+  
+  
+  .notification-content {
+    max-width: 80%;
+  }
+  
+  .notification-time {
+    font-size: 0.9em;
+    color: #888;
+  }

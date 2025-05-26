@@ -1,0 +1,21 @@
+<div class="sidebar-container">
+  <button class="burger-menu" (click)="toggleSidebar()">
+    <i class="fa fa-bars"></i> <!-- Font Awesome burger icon -->
+  </button>
+  <div class="sidebar" [class.open]="isSidebarOpen">
+    <div class="logo">
+      <div class="logo-icon">
+        <img src="assets/images/logo.svg" alt="EquiHub Logo" class="logo-image" />
+        <img src="assets/images/Mp.svg" alt="EquiHub Logo" class="logo-image2" />
+      </div>
+    </div>
+    <div class="menu">
+      <a [routerLink]="'/rsu'" [class.active]="activePage === 'rsu'" class="menu-item">RSU</a>
+      <a [routerLink]="'/esop'" [class.active]="activePage === 'esop'" class="menu-item">ESOP</a>
+      <a [routerLink]="'/vest'" [class.active]="activePage === 'vest'" class="menu-item">Vest</a>
+    </div>
+    <div class="logout-container">
+      <button class="btn btn-dark logout-btn" (click)="onLogout()">Logout</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,101 @@
+<div class="page-container">
+  <app-sidebar activePage="rsu"></app-sidebar>
+  <div class="content-container">
+    <app-header pageTitle="RSU" [stockPrice]="esopData?.currentStockPrice" [userName]="esopData?.username"></app-header>
+    
+    <div class="dashboard-container" >
+      <div class="metrics-row">
+        <!-- Top row metrics -->
+        <div class="metric-card">
+          <div class="metric-title">Total Stocks Granted</div>
+          <div class="metric-value">{{granted }}</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-title">Total Vested Stocks</div>
+          <div class="metric-value">{{ vested }}</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-title">Remaining Unvested Stocks</div>
+          <div class="metric-value">{{ unvested }}</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-title">My Current Value</div>
+          <div class="metric-value value-green">${{ currentValue }}</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-title">Next Vesting Date</div>
+          <div class="metric-value">{{ nextVestingDate }}</div>
+        </div>
+      </div>
+      
+      <!-- Second row features -->
+      <div class="features-row">
+        <div class="feature-card">
+          <div class="feature-title">Grant Agreements</div>
+          <div class="feature-content">
+            <button class="download-btn" (click)="downloadPdf()">Download</button>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-title">Vesting Progress</div>
+          <div class="feature-content">
+            <div class="progress-circle">
+              <svg viewBox="0 0 36 36" class="circular-chart">
+                <path class="circle-bg"
+                  d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+                <path class="circle"
+                  [attr.stroke-dasharray]="vestingProgressPercentage + ', 100'"
+                  d="M18 2.0845
+                    a 15.9155 15.9155 0 0 1 0 31.831
+                    a 15.9155 15.9155 0 0 1 0 -31.831"
+                />
+              </svg>
+              <div class="percentage-container">
+                <div class="percentage-right">{{vestingProgressPercentage }}%</div>
+                <div class="progress-label">Vested</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-title">Vesting History</div>
+          <div class="feature-content">
+            <div class="vesting-info">
+              <div class="vesting-item">Latest Vest: {{ previousVestingDate}}</div>
+            </div>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-title">Time to Full Vesting</div>
+          <div class="feature-content">
+            <div class="timeline-value">{{ timeToFullVest }}</div>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-title">Tax Calculator</div>
+          <div class="feature-content">
+            <div class="tax-calculator">
+            
+              <select class="calculator-dropdown" [(ngModel)]="selectedTaxType">
+                <option value="federal">Federal</option>
+                <option value="state">State</option>
+                <option value="local">Local</option>
+                <option value="total">Total</option>
+              </select>
+              <div style="color: #00539c; font-weight:100;">{{aftertax}} </div>&nbsp;
+              <button class="calculate-btn" (click)="getCurrentValue()">Calculate</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+ 
+    <!-- Footer Component -->
+    <app-footer footerType="rsu-footer"></app-footer>
+  </div>
+</div>

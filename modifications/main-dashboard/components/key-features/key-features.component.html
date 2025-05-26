@@ -1,0 +1,33 @@
+<div class="page-container">
+  <div class="logo-container">
+    <div class="company-name">{{ companyName }}</div>
+    <div class="tagline">
+      <div class="tagline-text" *ngFor="let line of taglines">{{ line }}</div>
+    </div>
+  </div>
+ 
+  <div class="key-features-container">
+    <div class="heading-container">
+      <h1 class="main-heading">{{ content.title }}</h1>
+      <p class="subtitle">{{ content.subtitle }}</p>
+    </div>
+ 
+    <div class="features-grid">
+      <div class="feature-card" *ngFor="let feature of features">
+        <div class="icon-container">
+          <span class="material-icons">{{ feature.icon }}</span>
+        </div>
+        <div class="content">
+          <h3>{{ feature.title }}</h3>
+          <p>{{ feature.description }}</p>
+        </div>
+      </div>
+    </div>
+   
+    <div class="cta-container">
+      <p class="cta-text">{{ content.ctaText }}</p>
+      <button class="explore-btn" (click)="navigateToLogin()">{{ content.ctaButtonText }}</button>
+    </div>
+  </div>
+</div>
+ 

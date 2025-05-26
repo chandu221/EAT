@@ -1,0 +1,164 @@
+.page-container {
+  background-color: #f0f8ff; 
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+ 
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 20px;
+}
+ 
+.logo {
+  height: 80px;
+  margin-bottom: 10px;
+}
+ 
+.tagline {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.company-name {
+  color: #468679; 
+  font-size: 3rem; 
+  font-weight: bold; 
+  text-align: center; 
+}
+ 
+.tagline-text {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #337a6c;
+}
+ 
+.key-features-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+ 
+.heading-container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+ 
+.main-heading {
+  color: #005580;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+ 
+.subtitle {
+  color: #505050;
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+ 
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+  margin-bottom: 60px;
+}
+ 
+.feature-card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+ 
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+}
+ 
+.icon-container {
+  margin-right: 15px;
+ 
+  .material-icons {
+    font-size: 40px;
+    color: #009688;
+  }
+}
+ 
+.content {
+  flex: 1;
+ 
+  h3 {
+    color: #005580;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  }
+ 
+  p {
+    color: #505050;
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+ 
+.cta-container {
+  text-align: center;
+  margin-top: 40px;
+  background-color: #e0f2f1;
+  padding: 30px;
+  border-radius: 10px;
+}
+ 
+.cta-text {
+  font-size: 1.2rem;
+  color: #005580;
+  margin-bottom: 20px;
+}
+ 
+.explore-btn {
+  background-color: #009688;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ 
+  &:hover {
+    background-color: #007566;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+ 
+  &:active {
+    transform: translateY(0);
+  }
+}
+ 
+ 
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+ 
+  .main-heading {
+    font-size: 2rem;
+  }
+ 
+  .subtitle {
+    font-size: 1rem;
+  }
+}
+ 

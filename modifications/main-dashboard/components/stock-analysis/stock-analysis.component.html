@@ -1,0 +1,11 @@
+<div>
+    <p><strong>Stock Symbol:</strong> {{ esopData.stockSymbol }}</p>
+    <p><strong>Current Market Value:</strong> ${{ esopData.currentMarketValue }}</p>
+    <p><strong>Stock Price:</strong> ${{ esopData.currentStockPrice }}</p>
+    <p><strong>Discounted Price:</strong> ${{ esopData.discountedPrice }}</p>
+    <p><strong>Next Vesting Date:</strong> {{ esopData.nextVestingDate }}</p>
+  
+    <h3>Analysis Result:</h3>
+    <p *ngIf="analysisResult">{{ analysisResult }}</p>
+    <button (click)="fetchAnalysis()">Get Analysis</button>
+  </div>
