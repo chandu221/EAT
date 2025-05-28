@@ -1,0 +1,13 @@
+
+<div class="assistant">
+    <h2>{{ title }}</h2>
+    <div class="history" *ngFor="let msg of history">
+      <div [ngClass]="{'user-msg': msg.from==='user','bot-msg': msg.from==='bot'}">
+        {{ msg.text }}
+      </div>
+    </div>
+    <div class="input-group">
+      <input type="text" [(ngModel)]="current" (keyup.enter)="send()" placeholder="Ask me..." />
+      <button (click)="send()">Send</button>
+    </div>
+  </div>
