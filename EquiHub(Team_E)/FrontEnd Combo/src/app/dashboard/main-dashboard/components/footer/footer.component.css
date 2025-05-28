@@ -1,0 +1,98 @@
+/* RSU Footer Styles */
+.rsu-footer {
+    background-color: #00539c;/* Example: Dodger Blue */
+    color: white;
+  }
+  
+  .rsu-footer .icon {
+    color: #00539c;; 
+  }
+  /* ESOP Footer Styles */
+  .esop-footer {
+    background-color:  #177245; /* Example: Lime Green */
+    color: white;
+  }
+  .esop-footer .icon {
+    color: #177245; /* Match the footer text color */
+}
+.sticky-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: #f8f9fa; Adjust as needed */
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+  /* Common Footer Styles */
+  /* Common Footer Styles */
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+     /* Match VEST footer background color */
+    color: white; /* Match VEST footer text color */
+    padding: 30px 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0 15px; /* Match VEST footer section padding */
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: white; /* Match VEST footer heading color */
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section li {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #ccc; /* Match VEST footer link color */
+    cursor: pointer;
+  }
+  
+  .footer-section li:hover {
+    color: white; /* Match VEST footer hover effect */
+  }
+  
+ 
+  .social-icons {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .copyright {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #eee;
+  }
+  

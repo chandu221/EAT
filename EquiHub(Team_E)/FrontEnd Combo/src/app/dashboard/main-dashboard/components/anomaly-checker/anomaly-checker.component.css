@@ -1,0 +1,36 @@
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+  }
+   
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 6px;
+    box-sizing: border-box;
+  }
+   
+  button {
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+   
+  .result {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+  }
+   
+  .anomaly {
+    background-color: #ffe6e6;
+    border: 1px solid red;
+  }
+   
+  .no-anomaly {
+    background-color: #e6ffe6;
+    border: 1px solid green;
+  }

@@ -1,0 +1,50 @@
+import { HttpClient } from '@angular/common/http';
+import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
+
+
+@Injectable({
+  providedIn: 'root'
+})
+export class EquityService {
+  private apiUrlRsu='http://localhost:5010/api/Rsu/';
+  private apiUrlEsop='http://localhost:5010/api/Esop/';
+  private apiUrlVest='http://localhost:5010/api/Vesting/schedule/';
+  private apiUrlNotify='http://localhost:5010/api/Notification/';
+  constructor(private http:HttpClient) { }
+  
+  getRsuData(empId:string):Observable<any>{
+    return this.http.get<any>(`${this.apiUrlRsu}${empId}`);
+  }
+  
+  getEsopData (empId:string):Observable<any>{
+    return this.http.get<any>(`${this.apiUrlEsop}${empId}`);
+  }
+
+  getVestData(empId:string, symbol:string):Observable<any>{
+    return this.http.get<any>(`${this.apiUrlVest}${empId}/${symbol}`);
+  }
+  getNotifyData(empId:string):Observable<any>{
+    return this.http.get<any>(`${this.apiUrlNotify}${empId}`);
+  }
+  
+  downloadPdf(fileName: string): void {
+    const link = document.createElement('a');
+    link.href = `assets/documents/${fileName}.pdf`;
+    link.download = `assets/documents/${fileName}.pdf`;
+    link.target = '_blank';
+    
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+  getLogoPath(): string {
+    return 'assets/images/logo.svg'; // Centralized image path
+  }
+  getAvatarUrl(userName: string): string {
+    const seed = userName || 'default';
+    return `https://api.dicebear.com/7.x/identicon/svg?seed=${encodeURIComponent(seed)}`;
+  }
+  
+}
+ 

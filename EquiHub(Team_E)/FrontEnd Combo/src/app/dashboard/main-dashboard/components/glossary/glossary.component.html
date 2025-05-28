@@ -1,0 +1,68 @@
+<!-- glossary.component.html -->
+<div class="glossary-container">
+    <div class="header">
+      <h1>Glossary of Terms</h1>
+      <p class="subtitle">Essential equity compensation terminology</p>
+    </div>
+   
+    <div class="search-container">
+      <input type="text" class="search-input" placeholder="Search terms..." [(ngModel)]="searchTerm" (input)="filterTerms()">
+      <button class="search-button" (click)="clearSearch()">Clear</button>
+    </div>
+   
+    <div class="alphabet-nav">
+      <span *ngFor="let letter of alphabet" 
+            [class.active]="activeLetter === letter" 
+            [class.disabled]="!hasTermsStartingWith(letter)"
+            (click)="scrollToLetter(letter)">
+        {{letter}}
+      </span>
+    </div>
+   
+    <div class="glossary-content">
+      <div *ngIf="filteredTerms.length === 0" class="no-results">
+        <p>No terms found matching "{{searchTerm}}"</p>
+      </div>
+   
+      <ng-container *ngIf="!searchTerm">
+        <div *ngFor="let group of groupedTerms | keyvalue" class="letter-section" [id]="'section-' + group.key">
+          <div class="letter-header">{{group.key}}</div>
+          <div class="terms-list">
+            <div *ngFor="let term of group.value" class="term-item">
+              
+  <h3>{{term.name}}</h3>
+              <p class="term-definition">{{term.definition}}</p>
+              <div *ngIf="term.relatedTerms && term.relatedTerms.length > 0" class="related-terms">
+                <span class="related-label">Related:</span>
+                <span *ngFor="let relatedTerm of term.relatedTerms; let last = last" class="related-term" (click)="scrollToTerm(relatedTerm)">
+                  {{relatedTerm}}{{!last ? ', ' : ''}}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+   
+      <ng-container *ngIf="searchTerm">
+        <div class="search-results">
+          <div *ngFor="let term of filteredTerms" class="term-item">
+            
+  <h3>{{term.name}}</h3>
+            <p class="term-definition">{{term.definition}}</p>
+            <div *ngIf="term.relatedTerms && term.relatedTerms.length > 0" class="related-terms">
+              <span class="related-label">Related:</span>
+              <span *ngFor="let relatedTerm of term.relatedTerms; let last = last" class="related-term" (click)="scrollToTerm(relatedTerm)">
+                {{relatedTerm}}{{!last ? ', ' : ''}}
+              </span>
+            </div>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+   
+    <div class="back-to-top" [class.visible]="showBackToTop" (click)="scrollToTop()">
+      <span class="back-to-top-icon">↑</span>
+      <span class="back-to-top-text">Back to Top</span>
+    </div>
+  </div>
+   

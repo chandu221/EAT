@@ -1,0 +1,33 @@
+
+<div class="container">
+    <h2>Anomaly Detection Checker</h2>
+    
+    <div>
+      <label>Stock Symbol:</label>
+      <input [(ngModel)]="symbol" placeholder="SCHW" />
+    </div>
+    
+    <div>
+      <label>Grant Price:</label>
+      <input type="number" [(ngModel)]="grantPrice" placeholder="100" />
+    </div>
+    
+    <button (click)="checkAnomaly()" [disabled]="loading">Check Anomaly</button>
+   
+    <div *ngIf="loading">Loading...</div>
+   
+    <div *ngIf="error" style="color: red; margin-top: 1rem;">{{ error }}</div>
+   
+    <div *ngIf="result" class="result" [ngClass]="{'anomaly': result.isAnomaly, 'no-anomaly': !result.isAnomaly}">
+      <h3>Result for {{ result.symbol }}</h3>
+      <!-- <p><strong>Checked At:</strong> {{ result.checkedAt | date:'short' }}</p> -->
+      <p><strong>Grant Price:</strong> {{ result.grantPrice }}</p>
+      <!-- <p><strong>Current Price:</strong> {{ result.currentPrice }}</p> -->
+      <strong>Deviation Percent:</strong> {{ result.deviationPercentage }}%
+
+      <p><strong>Status:</strong>
+        <span *ngIf="result.isAnomaly" style="color: red; font-weight: bold;">Anomaly Detected!</span>
+        <span *ngIf="!result.isAnomaly" style="color: green; font-weight: bold;">No Anomaly</span>
+      </p>
+    </div>
+  </div>
